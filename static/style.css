@@ -8,7 +8,7 @@ a {
     text-decoration: none;
 }
 
-hr {
+.hr-one {
     height: 4px;
     background: #F6623E;
     margin: 0px auto 20px auto;
@@ -56,7 +56,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .four {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .img-main {
@@ -76,7 +76,7 @@ body::-webkit-scrollbar-thumb {
     left: 50%;
 }
 
-.img-main-txt button {
+.btn-filled {
     padding: 5px 10px;
     border: none;
     outline: none;
@@ -121,14 +121,92 @@ body::-webkit-scrollbar-thumb {
     margin: auto;
 }
 
-.reviews{
+.reviews {
     background-image: url('./imgs/Rectangle\ 19.png');
-    height: 74vh;
+    height: 62vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+
+.reviews-icons .fa-solid {
+    color: rgb(255, 213, 0);
+    border: none;
+}
+
+.reviews-icons-move .first {
+    color: #9D9D9D;
+    border: 2px solid #9D9D9D;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.reviews-icons-move .second {
+    color: #F6623E;
+    border: 2px solid #F6623E;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.news {
+    margin-bottom: 150px;
+}
+
+.news-col .txt {
+    text-align: justify;
+    padding: 1px 10px;
+    color: #9D9D9D;
+}
+
+.good {
+    margin-bottom: 100px;
+}
+
+.good img {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.reviews-icons .fa-solid{
-    color: rgb(255, 213, 0);
+
+
+.footer {
+    background-image: url('./imgs/Rectangle\ 22.png');
+    height: 65vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-one {
+    padding-top: 80px;
+}
+
+.footer-one-links a {
+    display: inline-block;
+}
+
+.form input {
+    border: none;
+    background-color: #FFF8F6;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+    outline: none;
+}
+
+.form button {
+    color: #F6623E;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background-color: #FFF8F6;
+    margin-top: 8px;
+}
+
+.footer-two i {
+    color: #9D9D9D;
+    padding:2px 8px ;
 }
