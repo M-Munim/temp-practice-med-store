@@ -174,7 +174,7 @@ body::-webkit-scrollbar-thumb {
 
 .footer {
     background-image: url('./imgs/Rectangle\ 22.png');
-    height: 65vh;
+    height: auto;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -182,7 +182,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer-one {
-    padding-top: 80px;
+    padding-top: 25px;
 }
 
 .footer-one-links a {
