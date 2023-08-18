@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    height: 4px;
+    background: #F6623E;
+    margin: 0px auto 20px auto;
+    width: 140px;
+    border-radius: 10%;
+}
+
+
+*::selection {
+    background-color: #fff;
+    color: #95c11e;
+}
+
+body::-webkit-scrollbar {
+    display: block;
+    width: 8px;
+    background: #FFF8F6;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #F6623E;
+    border-radius: 50px;
+}
+
+
+.top {
+    background-color: #F6623E;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.bar-left p {
+    font-size: 1rem;
+}
+
+.bar-right a {
+    color: #fff;
+}
+
+.bar-right select {
+    border: none;
+    background-color: #F6623E;
+    outline: none;
+    color: #fff;
+}
+
+.four {
+    font-size: 15px;
+}
+
+.img-main {
+    background-image: url('./imgs/one.png');
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.img-main-txt {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+}
+
+.img-main-txt button {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #F6623E;
+    border-radius: 2px;
+}
+
+.shop {
+    margin-bottom: 150px;
+}
+
+.ship {
+    margin-bottom: 150px;
+    width: 60%;
+}
+
+.rect-15 {
+    background-color: #FFF8F6;
+}
+
+.health {
+    margin-bottom: 150px;
+}
+
+.btn-outline {
+    padding: 4px 10px;
+    border: 2px solid #F6623E;
+    background-color: #FFF8F6;
+}
+
+.orange {
+    color: #F6623E;
+}
+
+.products {
+    margin-bottom: 150px;
+}
+
+.products .btn-outline {
+    display: block;
+    margin: auto;
+}
+
+.reviews{
+    background-image: url('./imgs/Rectangle\ 19.png');
+    height: 74vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reviews-icons .fa-solid{
+    color: rgb(255, 213, 0);
+}
