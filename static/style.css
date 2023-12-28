@@ -8,15 +8,6 @@ a {
     text-decoration: none;
 }
 
-.hr-one {
-    height: 4px;
-    background: #F6623E;
-    margin: 0px auto 20px auto;
-    width: 140px;
-    border-radius: 10%;
-}
-
-
 *::selection {
     background-color: #fff;
     color: #95c11e;
@@ -25,23 +16,37 @@ a {
 body::-webkit-scrollbar {
     display: block;
     width: 8px;
-    background: #FFF8F6;
+    background: #F6623E;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #F6623E;
+    background-color: #fff;
     border-radius: 50px;
 }
 
+.hr-one {
+    height: 4px;
+    background: #F6623E;
+    margin: 0px auto 20px auto;
+    width: 140px;
+    border-radius: 10%;
+}
 
 .top {
     background-color: #F6623E;
     color: #fff;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    height: auto;
 }
 
-.bar-left p {
-    font-size: 1rem;
+.bar-left {
+    margin-bottom: -15px;
+    font-size: 70%;
+}
+
+.bar-right {
+    font-size: 70%;
 }
 
 .bar-right a {
@@ -59,14 +64,21 @@ body::-webkit-scrollbar-thumb {
     font-size: 14px;
 }
 
+
+.navbar a:hover {
+    color: #F6623E;
+    transition: .4s;
+}
+
 .img-main {
     background-image: url('./imgs/one.png');
     height: 80vh;
     width: 100%;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     position: relative;
+    margin-top: 45px;
     margin-bottom: 150px;
 }
 
@@ -123,7 +135,7 @@ body::-webkit-scrollbar-thumb {
 
 .reviews {
     background-image: url('./imgs/Rectangle\ 19.png');
-    height: 62vh;
+    height: auto;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -208,5 +220,5 @@ body::-webkit-scrollbar-thumb {
 
 .footer-two i {
     color: #9D9D9D;
-    padding:2px 8px ;
+    padding: 2px 8px;
 }
